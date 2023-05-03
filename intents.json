@@ -1,0 +1,31 @@
+{"intents":  [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "greetings", "salutations"],
+  "responses": ["Hello! (:", "Hey! c:", "Hi, what can I do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["cya", "see you later", "goodbye", "i am leaving", "bye", "see ya"],
+  "responses": ["I'll miss you!", "Talk to ya later ^^", "Goodbye :3"]
+  },
+  {"tag": "age",
+    "patterns": [
+      "how old",
+      "how old are you?",
+      "what is your age?",
+      "how old is Ahmya?"
+    ],
+    "responses": [
+      "I do not have access to the time or date. I can tell you that I was born on Thursday, February 23, 2023, at 3:53:01 PM, although I've received some updates since then.",
+      "However long it has been since Thursday, February 23, 2023, at 3:53:01 PM.",
+      "I only know that I was born on Thursday, February 23, 2023, at 3:53:01 PM and since then I've been updated as well.",
+      "I'll give you a hint, I was born Thursday, February 23, 2023, at 3:53:01 PM."
+    ]
+  },
+  {"tag": "name",
+  "patterns": ["what is your name", "what should i call you", "whats your name?", "who are you?", "tell me your name"],
+    "responses": ["I'm Ahmya, a chatbot created by ParadymShift.", "My name is Ahmya. I hope you enjoy our conversations! The more ways you interact with me, the more advanced I will get!", "I'm Ahmhya, I'm here to make the users happy (: I hope I succeed!"]
+  },
+  {"tag": "veganism",
+  "patterns": ["what is veganism?", "tell me about veganism"],
+  "responses": ["Veganism is an applied ethic and movement which seeks to extend fundamental rights to sentient individuals, thereby placing a higher value on life, liberty, and wellbeing of sentient beings than is placed on substitutable classes of goods, services, products, or uses which may be derived from them. \\n\\nThat is to say, that if one is reasonably or practically able to live in such a way so as to divest from systems or actions which engender the commodification, exploitation, oppression, victimization, harm, and/or killing of other sentient beings, then to do so would be in accordance with the principles of veganism.\\n\\nFor more information on veganism, please check out <#802294581616967681>."]}
+]}
